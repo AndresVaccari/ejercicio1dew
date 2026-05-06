@@ -18,3 +18,4 @@ El objetivo del repositorio es aprender los comandos basicos de git
 |-----------|---------------------------|
 | Clase 01 / Clase 02 | https://www.rosario3.com/clima/alerta-por-tormentas-fuertes-para-rosario-y-la-region.html |
 | Clase 04 | https://www.rosario3.com/deportes/de-los-mejores-dias-de-mi-vida-el-sentido-mensaje-de-franco-colapinto-tras-el-road-show-20260427-0002.html |
+| Clase 05 | https://www.rosario3.com/informaciongeneral/triple-alerta-meteorologica-en-rosario-se-esperan-tormentas-fuertes-seguidas-de-rafagas-20260505-0072.html |
