@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suscripción - Rosario3</title>
+    <link rel="stylesheet" href="subscription.css">
+</head>
+<body>
+
+    <header id="site-header">
+        <div class="header-inner">
+            <span id="site-logo">Rosario3</span>
+            <nav id="main-nav">
+                <a href="index.html">Inicio</a>
+                <a href="#">Ciudad</a>
+                <a href="#">Deportes</a>
+                <a href="#">Clima</a>
+                <a href="#">Política</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="suscripcion">
+            <h1 id="form-title">Suscribite a las alertas meteorológicas</h1>
+            <p class="descripcion">Completá el formulario para recibir notificaciones sobre alertas climáticas en tu correo electrónico.</p>
+
+            <form id="form-suscripcion" novalidate>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="nombre">Nombre completo <span class="required">*</span></label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo">
+                        <span class="error-msg" id="error-nombre"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Correo electrónico <span class="required">*</span></label>
+                        <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com">
+                        <span class="error-msg" id="error-email"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="telefono">Teléfono <span class="required">*</span></label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="Ej: 3411234567">
+                        <span class="error-msg" id="error-telefono"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="ciudad">Ciudad <span class="required">*</span></label>
+                        <input type="text" id="ciudad" name="ciudad" placeholder="Tu ciudad">
+                        <span class="error-msg" id="error-ciudad"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="frecuencia">Frecuencia de alertas <span class="required">*</span></label>
+                        <select id="frecuencia" name="frecuencia">
+                            <option value="">Seleccioná una opción</option>
+                            <option value="inmediata">Inmediata</option>
+                            <option value="diaria">Resumen diario</option>
+                            <option value="semanal">Resumen semanal</option>
+                        </select>
+                        <span class="error-msg" id="error-frecuencia"></span>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="comentarios">Comentarios (opcional)</label>
+                        <textarea id="comentarios" name="comentarios" rows="3" placeholder="Alguna preferencia o consulta"></textarea>
+                        <span class="error-msg" id="error-comentarios"></span>
+                    </div>
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit" id="btn-enviar">Enviar suscripción</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer id="site-footer">
+        <p>&copy; 2026 Rosario3 &mdash; Todos los derechos reservados.</p>
+        <p>Grupo América &bull; Rosario, Santa Fe, Argentina</p>
+    </footer>
+
+    <script src="subscription.js" defer></script>
+</body>
+</html>
